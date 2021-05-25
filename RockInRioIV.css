@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    padding: 0;
+	background-color: grey;
+    }
+
+.portada{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://stoneandmusicfestival.com/wp-content/uploads/2017/01/stone_web.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+    align-items: center;
+	filter: grayscale(90%)
+}
+
+.portada h1 {
+    color: whitesmoke;
+	z-index: 2;
+	font-size: 7em;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 1px 1px 2px blue;
+	text-align: center;
+
+}
+
+.darkness {
+    width: 100%;
+	height: 30%;
+	position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.nav {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.nav-list{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 1.2em;
+    
+}
+.nav-list li {
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    color: white;
+    text-decoration-style: none;   
+}
+
+.nav-list li:hover {
+    color: crimson;
+   
+
+}
+
+.nav-list li a {
+    text-decoration: none;  
+    color: inherit; 
+
+
+}
+
+
+.quienes-section {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.quienes-somos-class {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    -webkit-box-shadow: -2px 10px 84px -4px rgba(0,0,0,1);
+    -moz-box-shadow: -2px 10px 84px -4px rgba(0,0,0,1);
+	box-shadow: -2px 10px 84px -4px rgba(0,0,0,1);
+	padding: 2%;
+	background-color: darkgray;
+	
+}
+
+.titulo{
+	font-size: 2em;
+	
+}
+
+.parrafo-titulo{
+  	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    letter-spacing: 1px;
+	text-align: justify;
+	
+   }
+
+.bandas{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 50px 0px;
+	}
+
+.bandas-list{
+	border-radius: 10%;
+	width: 15%;
+	height: 500px;
+	 -webkit-box-shadow: -2px 10px 84px -4px rgba(0,0,0,1);
+    -moz-box-shadow: -2px 10px 84px -4px rgba(0,0,0,1);
+	box-shadow: -2px 10px 84px -4px rgba(0,0,0,1);
+	background-color: darkgrey;
+	
+	}
+
+.bandas-list img{
+	border-radius: 10%;
+	width:100%;
+	height: 200px;
+	object-fit: cover;
+	object-position: top;
+}
+
+.bandas-list h3{
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.bandas-list p{
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	line-height: 1.5em;
+}
+
+.contacto{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+	
+}
+
+.contact-list{
+	width: 50%;
+	height: 25%;
+	border-radius: 10%;
+	padding: 20px;
+	 -webkit-box-shadow: -2px 10px 84px -4px rgba(0,0,0,1);
+    -moz-box-shadow: -2px 10px 84px -4px rgba(0,0,0,1);
+	box-shadow: -2px 10px 84px -4px rgba(0,0,0,1);
+	background-color: darkgray;
+
+}
+
+.contact-list h2{
+	text-align: center;
+}
+
+.input{
+	margin: 10px 0px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.input input{
+	width: 80%;
+}
+
+.input textarea {
+	width: 80%;
+}
+
+.area-btn {
+	
+	display: flex;
+	justify-content: flex-end;
+	border-radius: 20%;
+	
+	
+}
+
+.area-btn :hover{
+	cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+}
+
+.footer { 
+	height: 200px;
+	margin-top: 10%;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.icon-cont i {
+	color:white;
+	font-size: 2em;
+	margin: 0px 10px;
+}
+
+
+.icon-cont i:hover {
+	color: darkslategray;
+	cursor: pointer;
+	
+}
+
+
+
